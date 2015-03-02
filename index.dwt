@@ -14,7 +14,7 @@ body {
 	background-color: #CCCCCC;
 	margin: 0;
 	color: #000;
-	background-image: url(gray%20back.jpg);
+	background-image: url(pictures/background.jpg);
 	padding-bottom: 4%;
 	height: auto;
 	width: auto;
@@ -251,7 +251,7 @@ body,td,th {
     <!-- end .header --></div>
   <div class="content">
   
-    <h1><img src="hero2.jpg" width="1006" height="309" /></h1>
+    <h1><img src="pictures/index-main.jpg" width="1006" height="309" /></h1>
     <h1>Our mission is to spread help, hope &amp; answers</h1>
     
     <p>Our mission is to provide vocational rehabilitation and other services to people with disabilities and other barriers to enable them to live lives of independence and dignity through meaningful work. Stay connected! Sign up to receive news and special announcements.<a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
@@ -260,7 +260,7 @@ body,td,th {
       <h3><u>Join us: </u></h3>
     </div>
     <div>
-      <p align="right"> <img src="Home photo 1.jpg" alt="HP1" width="122" height="124" align="left" /> The 11th annual Easter Seals Middle Georgia Century 21 Durden and Kornegay Golf Classic. This years Golf Classic will be held on March 13, 2015 at the Dublin Country Club. Wear your green and bring your clubs to for lots of fun and fellowship. Lunch provided by Deano's. </p>
+      <p align="right"> <img src="pictures/index-helping1.jpg" alt="HP1" width="122" height="124" align="left" /> The 11th annual Easter Seals Middle Georgia Century 21 Durden and Kornegay Golf Classic. This years Golf Classic will be held on March 13, 2015 at the Dublin Country Club. Wear your green and bring your clubs to for lots of fun and fellowship. Lunch provided by Deano's. </p>
       <p>&nbsp;</p>
     </div>
     <div> </div>
@@ -268,14 +268,14 @@ body,td,th {
       <h3><u>Residents attend Festival Banquet </u></h3>
     </div>
     <div>
-      <p align="right"><img src="Home photo 2.jpg" alt="HP2" width="107" height="124" align="left" />Residents of Dogwood Terrace and Martin Court apartments attended the Laurens County Black Festival Banquet that was held on Feb. 21, 2015  Here is Keyonda is getting her hair all dolled up! </p>
+      <p align="right"><img src="pictures/index-helping2.jpg" alt="HP2" width="107" height="124" align="left" />Residents of Dogwood Terrace and Martin Court apartments attended the Laurens County Black Festival Banquet that was held on Feb. 21, 2015  Here is Keyonda is getting her hair all dolled up! </p>
       <p>&nbsp;</p>
     </div>
     <div>
       <h3><u>Exceptional Family Member Program: </u></h3>
     </div>
     <div>
-      <p align="right"><img src="Home photo 3.jpg" alt="HP3" width="106" height="127" align="left" />As a partner agency of the Air Force Exceptional Family Member Program, Easter Seals continues to recruit and train providers in caring for children with special needs. Currently, services are provided for 61 children in 25 families at WRAFB.</p>
+      <p align="right"><img src="pictures/index-helping3.jpg" alt="HP3" width="106" height="127" align="left" />As a partner agency of the Air Force Exceptional Family Member Program, Easter Seals continues to recruit and train providers in caring for children with special needs. Currently, services are provided for 61 children in 25 families at WRAFB.</p>
       <p>&nbsp;</p>
     </div>
     <div>
