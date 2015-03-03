@@ -200,7 +200,7 @@ body,td,th {
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="large easterseals.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
+  <div class="header"><a href="#"><img src="pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
     <div id="apDiv2">Easter Seals of Middle Georgia</div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
