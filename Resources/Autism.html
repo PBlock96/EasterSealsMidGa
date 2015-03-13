@@ -40,11 +40,11 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #FFFFFF;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
@@ -170,6 +170,15 @@ body,td,th {
 .container .content #apDiv1 .menu #MenuBar1 li {
 	color: #C00;
 }
+.container .content h1 {
+	color: #C00;
+}
+.Subhead {
+	color: #999;
+}
+.container .content #item-491224258 p a {
+	color: #C00;
+}
 -->
 </style>
 
@@ -195,14 +204,24 @@ body,td,th {
 }
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
-    <div id="apDiv2">Easter Seals of Middle Georgia</div>
+  <div class="header"><a href="../index.html"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
+    <div id="apDiv2"><a href="../index.html">Easter Seals of Middle Georgia</a></div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a class="MenuBarItemSubmenu" href="#">Who <br />
@@ -257,11 +276,59 @@ body,td,th {
   <div class="content">
   
     <h1><img src="pictures/index-main.jpg" width="1006" height="309" /></h1>
-    <h1>Header 1</h1>
-    
-    <p>Body text goes here.</p>
-    <h2>Header 2</h2>
-    <p>Secondary Text goes here.</p>
+    <h1>Living With Autism</h1>
+    <div id="item-491224258">
+      <h3> <span class="Subhead">What Exactly is Autism?</span></h3>
+      <p>Autism Spectrum Disorder (ASD) or autism is a developmental disability considered the result of a neurological condition affecting normal brain function, development and social interactions. Children and adults with autism find it difficult or impossible to relate to other people in a meaningful way and may show restrictive and/or repetitive patterns of behavior or body movements. While great strides are being made, there is no known cause, or a known singular effective treatment for autism.</p>
+      <h3 class="Subhead">Resources and Data on Autism Today</h3>
+      <p><a href="http://www.easterseals.com/explore-resources/living-with-autism/state-autism-profiles.html">View our Autism State Profiles</a> for a state-of-the-state report of autism services in the 50 states and the District of Columbia.</p>
+      <h3 class="Subhead">Opening the Door to Autism</h3>
+      <p>There are five developmental disorders that fall under the Autism Spectrum Disorder umbrella and are defined by challenges in three areas: social skills, communication, and behaviors and/or interests.</p>
+      <p><strong>Autistic Disorder</strong> -- occurs in males four times more than females and involves moderate to severe impairments in communication, socialization and behavior.</p>
+      <p><strong>Asperger's Syndrome</strong> -- sometimes considered a milder form of autism, Asperger&rsquo;s is typically diagnosed later in life than other disorders on the spectrum. People with Asperger's syndrome usually function in the average to above average intelligence range and have no delays in language skills, but often struggle with social skills and restrictive and repetitive behavior.</p>
+      <p><strong>Rett Syndrome</strong> -- diagnosed primarily in females who exhibit typical development until approximately five to 30 months when children with Rett syndrome begin to regress, especially in terms of motor skills and loss of abilities in other areas. A key indicator of Rett syndrome is the appearance of repetitive, meaningless movements or gestures.</p>
+      <p><strong>Childhood Disintegrative Disorder</strong> -- involves a significant regression in skills that have previously been acquired, and deficits in communication, socialization and/or restrictive and repetitive behavior.</p>
+      <p><strong>Pervasive Developmental Disorder Not Otherwise Specified (PDD-NOS)</strong> -- includes children that do not fully meet the criteria for the other specific disorders or those that do not have the degree of impairment associated with those disorders.</p>
+      <p><a href="http://www.easterseals.com/explore-resources/living-with-autism/glossary-of-autism-disorders.html">Read the full glossary of ASD-related terminology.</a></p>
+      <h3 class="Subhead">Living with Autism</h3>
+      <p>People with autism have challenges in the areas of communication, socialization and restricted/repetitive behaviors. A few examples:</p>
+      <p class="Subhead"><strong> Communication </strong></p>
+      <ul>
+        <li>Development of language is significantly delayed</li>
+        <li>Some do not develop spoken language</li>
+        <li>Experience difficulty with both expressive and receptive language</li>
+        <li>Difficulty initiating or sustaining conversations</li>
+        <li>Robotic, formal speech</li>
+        <li>Repetitive use of language</li>
+        <li>Difficulty with the pragmatic use of language</li>
+      </ul>
+      <p class="Subhead"><strong>Socialization</strong></p>
+      <ul>
+        <li>Difficulty developing peer relationships</li>
+        <li>Difficulty with give and take of social interactions</li>
+        <li>Lack of spontaneous sharing of enjoyment</li>
+        <li>Impairments in use and understanding of body language to regulate social interaction</li>
+        <li>May not be motivated by social reciprocity or shared give-and-take</li>
+      </ul>
+      <p class="Subhead"><strong>Restricted/Repetitive Behavior</strong></p>
+      <ul>
+        <li>Preoccupations atypical in intensity or focus</li>
+        <li>Inflexibility related to routines and rituals</li>
+        <li>Stereotyped movements</li>
+        <li>Preoccupations with parts of objects</li>
+        <li>Impairments in symbolic play</li>
+      </ul>
+      <h3 class="Subhead">Learn About Signs and Symptoms</h3>
+      <p>There is no single behavior that is always typical of autism or any of the autism spectrum disorders. <a href="http://www.easterseals.com/explore-resources/living-with-autism/autism-signs-and-symptoms.html">Learn about the signs and symptoms.</a></p>
+      <p><strong class="Subhead"> There is Hope </strong><br />
+      Autism is a baffling, life-long disorder. And while there is no cause or cure, nor a known singular effective treatment, it is treatable. People with autism -- at any age -- can make <a href="http://www.easterseals.com/who-we-are/stories-of-hope/">significant progress</a> through therapy and treatments, and can lead meaningful and productive lives.</p>
+      <p>However, experts agree that early diagnosis and early intervention are critical - because the earlier people with autism get help, the better their outcomes will be in the future.</p>
+      <p><strong class="Subhead"> Did you Know?</strong><br />
+      The annual cost of providing services for people with autism is $90 million, in 10 years that number is projected to be $200 - 400 billion. With early diagnosis and intervention, the overall cost of treatment can be reduced by two-thirds over an individual with autism&rsquo;s lifetime.</p>
+      <p><em> London School of Economics Study, 2001</em></p>
+      <p><a href="http://www.easterseals.com/explore-resources/living-with-autism/autism-resources.html">View Other Autism Resources</a></p>
+    </div>
+    <p>&nbsp;</p>
     <div> </div>
     <p>&nbsp;</p>
     <h3>&nbsp;</h3>

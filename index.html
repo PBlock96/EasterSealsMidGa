@@ -11,7 +11,7 @@
 <!--
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #CCCCCC;
+	background-color: #FFFFFF;
 	margin: 0;
 	color: #000;
 	background-image: url(pictures/background.jpg);
@@ -40,10 +40,10 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #FFFFFF;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #6E6C64;
+	color: #FFFFFF;
 	text-decoration: underline;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
@@ -195,14 +195,22 @@ body,td,th {
 }
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFFFFF;
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body link="#FFFFFF">
 
 <div class="container">
-  <div class="header"><a href="#"><img src="pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
-    <div id="apDiv2">Easter Seals of Middle Georgia</div>
+  <div class="header"><a href="index.html"><img src="pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a><a href="#"></a>
+    <div id="apDiv2"><a href="index.html">Easter Seals of Middle Georgia</a></div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a class="MenuBarItemSubmenu" href="#">Who <br />

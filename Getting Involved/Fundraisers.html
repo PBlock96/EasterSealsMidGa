@@ -40,11 +40,11 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #FFFFFF;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
@@ -170,6 +170,15 @@ body,td,th {
 .container .content #apDiv1 .menu #MenuBar1 li {
 	color: #C00;
 }
+.container .content table tbody tr td p a strong {
+	color: #C00;
+}
+.container .content h1 {
+	color: #C00;
+}
+.container .content h3 {
+	color: #999;
+}
 -->
 </style>
 
@@ -195,14 +204,24 @@ body,td,th {
 }
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
-    <div id="apDiv2">Easter Seals of Middle Georgia</div>
+  <div class="header"><a href="../index.html"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
+    <div id="apDiv2"><a href="../index.html">Easter Seals of Middle Georgia</a></div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a class="MenuBarItemSubmenu" href="#">Who <br />
@@ -257,12 +276,28 @@ body,td,th {
   <div class="content">
   
     <h1><img src="pictures/index-main.jpg" width="1006" height="309" /></h1>
-    <h1>Header 1</h1>
+    <h1>Fundraising</h1>
     
-    <p>Body text goes here.</p>
-    <h2>Header 2</h2>
-    <p>Secondary Text goes here.</p>
-    <div> </div>
+    <h3>Be a Champion and raise funds for Easter Seals Middle Georgia</h3>
+    <p><a href="http://es.easterseals.com/site/PageServer?pagename=GADR04t_tributes_CheckLogin&amp;s_targetFundId=2421"><img alt="Create a Champion page" src="http://es.easterseals.com/images/content/pagebuilder/1426020.gif" border="0" /></a>
+      <!--If user is not logged in, send them to user login screen and then champion dashboard. If user is logged in and is in the All Champions group 71015, send them to champion dashboard. If user is logged in and as not in the All Champions group, send them to more page. -->
+      <a href="http://es.easterseals.com/site/UserLogin?NEXTURL=TRC%3Ffr_id%3D2421%26pg%3Dchamp_mf_center%26s_Affiliate%3DGADR04T_"><img alt="Manage your Champion Web page" src="http://es.easterseals.com/images/content/pagebuilder/1425872.gif" border="0" /></a> <a href="http://es.easterseals.com/site/TR?pg=ffind&amp;fr_id=2421"><img alt="Find a Champion" src="http://es.easterseals.com/images/content/pagebuilder/1426194.gif" border="0" /></a></p>
+    <table border="0" cellspacing="0" cellpadding="0" summary=" ">
+      <tbody>
+        <tr>
+          <td><p><img width="10" height="10" alt=" " src="http://es.easterseals.com/images/sp.gif" /></p></td>
+          <td colspan="2"><p><span align="right"><img align="right" alt="Smiling   friend of Easter Seals" src="http://www.easterseals.com/images/content/pagebuilder/786012.jpg" border="0" /></span></p>
+            <p>Join Easter Seals in our mission to provide exceptional services that  offer hope, help and independence to people living with disabilities.</p>
+            <p>Now you can create a personalized Web page and raise funds online on  behalf of Easter Seals … and it&rsquo;s easy! Honor a friend or family  member, or tell your own story. Use text and pictures to tell others why you  support Easter Seals, and why they should, too! You can also support other  Champions -- people just like you -- who have created Web pages to raise  funds for Easter Seals.</p>
+            <p>Get started now:</p>
+            <p><a href="http://es.easterseals.com/site/PageServer?pagename=GADR04T_tributes_CheckLogin&amp;s_targetFundId=2421"><strong>Create your Champion Web page</strong></a> -- Honor a friend or family member or tell your own story. Start fundraising now!</p>
+            <p><a href="http://es.easterseals.com/site/TR?pg=ffind&amp;fr_id=2421"><strong>Find a Fundraising Champion</strong></a> -- Find a friend or family member's personal fund raising page and donate online to support them. </p>
+            <p><a href="http://es.easterseals.com/site/UserLogin?NEXTURL=TRC%3Ffr_id%3D2421%26pg%3Dchamp_mf_center%26s_Affiliate%3DGADR04T_"><strong>Manage your Champion Page</strong></a> -- Access all the tools you need to update your personal Web page, email your friends and family and track your fund raising performance.</p>
+            <p><a href="http://es.easterseals.com/site/PageServer?pagename=GADR04T_more&amp;s_Affiliate=GADR04T_"><strong>Frequently Asked Questions</strong></a> -- Read more details about the Easter Seals Champion Program and managing your Champion Fund.</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
     <p>&nbsp;</p>
     <h3>&nbsp;</h3>
   <!-- end .content --></div>

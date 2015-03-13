@@ -40,11 +40,11 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #FFFFFF;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
@@ -170,6 +170,12 @@ body,td,th {
 .container .content #apDiv1 .menu #MenuBar1 li {
 	color: #C00;
 }
+.container .content h1 {
+	color: #C00;
+}
+.container .content div h3 {
+	color: #999;
+}
 -->
 </style>
 
@@ -193,16 +199,29 @@ body,td,th {
 	left: 1267px;
 	top: 997px;
 }
+.container .content div p a {
+	color: #C00;
+}
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
-    <div id="apDiv2">Easter Seals of Middle Georgia</div>
+  <div class="header"><a href="../index.html"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
+    <div id="apDiv2"><a href="../index.html">Easter Seals of Middle Georgia</a></div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a class="MenuBarItemSubmenu" href="#">Who <br />
@@ -257,11 +276,44 @@ body,td,th {
   <div class="content">
   
     <h1><img src="pictures/index-main.jpg" width="1006" height="309" /></h1>
-    <h1>Header 1</h1>
+    <h1>Success Stories</h1>
     
-    <p>Body text goes here.</p>
-    <h2>Header 2</h2>
-    <p>Secondary Text goes here.</p>
+    <div>
+      <h3>A 'One-of-a-Kind Kid'</h3>
+      <p><a title="A 'One-of-a-Kind Kid'" href="http://www.easterseals.com/who-we-are/leadership/auburn-smith.html"><img src="http://www.easterseals.com/who-we-are/stories-of-hope/spotlights/auburn-smith.jpg" alt="Auburn Smith" width="114" height="105" align="left" /></a> Easter Seals 2013 Youth Representative Auburn Smith is a nationally-ranked tennis player and aspiring musician who loves to travel. This active high school sophomore doesn&rsquo;t let a disability get in her way.<br />
+      <a title="A 'One-of-a-Kind Kid'" href="http://www.easterseals.com/who-we-are/leadership/auburn-smith.html">Read more</a></p>
+    </div>
+    <div>
+      <h3>A charitable gift annuity benefits Easter Seals and its donor</h3>
+      <p><a title="A charitable gift annuity benefits Easter Seals and its donor" href="http://www.gftpln.org/Article.do;jsessionid=5AF511E110DE3FDB018EE7E262AF5BC9?orgId=6439&amp;articleId=23823" target="_blank"><img src="http://www.easterseals.com/shared-components/image-library/ways-to-give-spotlight.jpg" alt="Alice Meppen smiling" width="106" height="105" /></a> Alice Meppen is delighted. She wanted to give back somehow to Easter Seals so that future generations of children and adults with disabilities could have similar opportunities. She recently increased her retirement income, while at the same time making a significant gift to Easter Seals as a way to say &quot;thank you&quot; for help her granddaughter received. <br />
+      <a title="A charitable gift annuity benefits Easter Seals and its donor" href="http://www.gftpln.org/Article.do;jsessionid=5AF511E110DE3FDB018EE7E262AF5BC9?orgId=6439&amp;articleId=23823" target="_blank">Read more</a></p>
+    </div>
+    <div>
+      <h3>Act of Kindness Leads to Inspiring Reunion</h3>
+      <p><a title="Act of Kindness Leads to Inspiring Reunion" href="http://dixon.easterseals.com/site/PageServer?pagename=dixon_in_news"><img src="http://www.easterseals.com/who-we-are/stories-of-hope/spotlights/kim-mitchell.jpg" alt="Learn more about this inspiring reunion" width="106" height="105" /></a> Retired Navy Lt. Cmdr. Kimberly Mitchell was reunited with the former Vietnamese Marine 2nd Lt. who rescued her from the Vietnam streets 40 years ago. Mitchell now serves by helping veterans and military families in her role as president of Dixon Center at Easter Seals.<br />
+      <a title="Act of Kindness Leads to Inspiring Reunion" href="http://dixon.easterseals.com/site/PageServer?pagename=dixon_in_news">Read more</a></p>
+    </div>
+    <div>
+      <h3>Is Your Child Under Age 5? Take the Developmental Milestones Screening</h3>
+      <p><a title="Is Your Child Under Age 5? Take the Developmental Milestones Screening" href="http://es.easterseals.com/site/PageServer?pagename=ntlc10_mffc_homepageasq" target="_blank"><img src="http://www.easterseals.com/shared-components/image-library/asq-story.jpg" alt="mom huggin two sons with text is your child developing on time?" width="106" height="105" align="left" /></a> Children develop skills, or &quot;milestones,&quot; at their own pace. How is your child or grandchild doing? You only need 10-20 minutes to check with the Ages &amp; Stages Questionnaires® online screening. Your results will help you see if your child's developmental progress is on time and alert you to any concerns that you can talk over with your health care provider. <br />
+      <a title="Is Your Child Under Age 5? Take the Developmental Milestones Screening" href="http://es.easterseals.com/site/PageServer?pagename=ntlc10_mffc_homepageasq" target="_blank">Read more</a></p>
+    </div>
+    <div>
+      <h3>Our Autism Services</h3>
+      <p><a title="Our Autism Services" href="http://www.easterseals.com/our-programs/autism-services/"><img src="http://www.easterseals.com/shared-components/image-library/boy-on-swing-1.jpg" alt="boy on swing" width="106" height="105" align="left" /></a> Easter Seals programs across the country provide a wide variety of interventions that help individuals of all abilities, including those with Autism Spectrum Disorder (ASD). Easter Seals currently has a combination of services specifically targeting individuals with the diagnosis of ASD as well as other services that include individuals with ASD among their service recipients.<br />
+      <a title="Our Autism Services" href="http://www.easterseals.com/our-programs/autism-services/">Read more</a></p>
+    </div>
+    <div>
+      <h3>Our Miltary &amp; Veterans Services</h3>
+      <p><a title="Our Miltary &amp; Veterans Services" href="http://www.easterseals.com/our-programs/military-veterans/"><img src="http://www.easterseals.com/who-we-are/stories-of-hope/spotlights/service-member-and.jpg" alt="Service member and significant other embracing" width="106" height="105" align="left" /></a> As the largest provider of disability-related services, Easter Seals offers military and veterans systems of care with viable options to support and augment current reintegration efforts.<br />
+      <a title="Our Miltary &amp; Veterans Services" href="http://www.easterseals.com/our-programs/military-veterans/">Read more</a></p>
+    </div>
+    <div>
+      <h3>Take a Step in Making a Difference in Your Community</h3>
+      <p><a title="Take a Step in Making a Difference in Your Community" href="http://walkwithme.org/" target="_blank"><img src="http://www.easterseals.com/middlega/who-we-are/stories-of-hope/spotlights/who-we-are-spotlight.jpg" alt="Who We Are Spotlight" width="114" height="105" align="left" /></a> Easter Seals Walk With Me is an event to raise awareness and support for families living with disabilities! Join hundreds of passionate people in your community for a day full of entertainment, fun and, of course, our signature walk! Every walk event is different -- your walk could be at a local school or at the aquarium. But every walk is a lifeline of funds that enables your local Easter Seals to continue providing vital services and support to people with disabilities and their families.<br />
+      <a title="Take a Step in Making a Difference in Your Community" href="http://walkwithme.org/" target="_blank">Read more</a></p>
+    </div>
+    <p>&nbsp;</p>
     <div> </div>
     <p>&nbsp;</p>
     <h3>&nbsp;</h3>

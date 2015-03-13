@@ -40,11 +40,11 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #FFFFFF;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
@@ -195,12 +195,22 @@ body,td,th {
 }
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="container">
-  <div class="header"><a href="#"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
-    <div id="apDiv2">Easter Seals of Middle Georgia</div>
+  <div class="header"><a href="../index.html"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
+    <div id="apDiv2"><a href="../index.html">Easter Seals of Middle Georgia</a></div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a class="MenuBarItemSubmenu" href="#">Who <br />
@@ -263,13 +273,7 @@ body,td,th {
 <H3><BR>Be a Champion and raise funds for Easter Seals Middle Georgia</H3>
 <P style="color: #c33; font-size: 85%; text-align:center;">
  </P>
-<P>
-<a href="PageServer?pagename=GADR04t_tributes_CheckLogin&s_targetFundId=2421"><IMG alt="Create a Champion page" src="../images/content/pagebuilder/1426020.gif" border=0 /></a>
-<!--If user is not logged in, send them to user login screen and then champion dashboard. If user is logged in and is in the All Champions group 71015, send them to champion dashboard. If user is logged in and as not in the All Champions group, send them to more page. -->
-<a href="UserLogin?NEXTURL=TRC%3Ffr_id%3D2421%26pg%3Dchamp_mf_center%26s_Affiliate%3DGADR04T_">
-<img src="../images/content/pagebuilder/1425872.gif"  alt="Manage your Champion Web page"  border="0"  /></A>
-<A href="TR?pg=ffind&amp;fr_id=2421"><IMG alt="Find a Champion" src="../images/content/pagebuilder/1426194.gif" border=0 /></A>
-</P>
+<P><!--If user is not logged in, send them to user login screen and then champion dashboard. If user is logged in and is in the All Champions group 71015, send them to champion dashboard. If user is logged in and as not in the All Champions group, send them to more page. --></P>
 <table border="0" cellpadding="0" cellspacing="0" summary=" ">
 <tr>
 <td>

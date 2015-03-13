@@ -40,11 +40,11 @@ a img { /* this selector removes the default blue border displayed in some brows
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
 	color: #FFFFFF;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
@@ -170,6 +170,24 @@ body,td,th {
 .container .content #apDiv1 .menu #MenuBar1 li {
 	color: #C00;
 }
+.container .content h1 {
+	color: #C00;
+}
+.container .content div em a {
+	color: #C00;
+}
+.link1 {
+	color: #C00;
+}
+.link1 {
+	color: #C00;
+}
+.container .content p a {
+	color: #C00;
+}
+.container .content h3 {
+	color: #999;
+}
 -->
 </style>
 
@@ -195,14 +213,24 @@ body,td,th {
 }
 </style>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body>
 
 <div class="container">
-  <div class="header"><a href="#"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
-    <div id="apDiv2">Easter Seals of Middle Georgia</div>
+  <div class="header"><a href="../index.html"><img src="../pictures/logo.png" alt="Insert Logo Here" name="Insert_logo" width="171" height="171" id="Insert_logo" style="display: block;" /></a>
+    <div id="apDiv2"><a href="../index.html">Easter Seals of Middle Georgia</a></div>
     <div align="justify">
       <ul id="MenuBar1" class="MenuBarHorizontal">
         <li><a class="MenuBarItemSubmenu" href="#">Who <br />
@@ -257,11 +285,42 @@ body,td,th {
   <div class="content">
   
     <h1><img src="pictures/index-main.jpg" width="1006" height="309" /></h1>
-    <h1>Header 1</h1>
+    <h1>Caregivers</h1>
     
-    <p>Body text goes here.</p>
-    <h2>Header 2</h2>
-    <p>Secondary Text goes here.</p>
+    <p>They were there for you when you needed them. They planned for your future. Now you are the stronger one who is playing a big role in planning for their future. In homes across the nation, people are struggling to meet their obligations to their children, to their parents, to their community. Choosing the right kind of care for a family member who is frail or vulnerable due to injury, illness or age is one of the most difficult decisions you will ever have to make. Use the resources on these pages to help you balance the care you provide for others and yourself along with your other responsibilities.</p>
+    <p><a title="Are you a caregiver?" href="http://www.easterseals.com/explore-resources/for-caregivers/are-you-a-caregiver.html">Are you a caregiver?</a><br />
+      Are you handling your aging mother's bills? Do you take your grandfather to the grocery store once a week? Do you take time off work to drive your aunt to her doctor appointments? If so, you are a caregiver ... and there are many services and supports available to you and the person for whom you are caring.</p>
+    <p><img src="http://www.easterseals.com/shared-components/image-library/wasilewski-caregiving-landing.jpg" alt="Fran Miner and her family sitting outside" border="0" align="left" /><a href="http://www.easterseals.com/explore-resources/for-caregivers/the-new-face-of-caregiving.html">The New Faces of Caregiving</a><br />
+      Today&rsquo;s caregiver can be anyone from your next door neighbor to your own children. Explore some of the heartfelt stories of today&rsquo;s caregivers and caregiving resources.</p>
+    <p><img src="http://www.easterseals.com/shared-components/image-library/544620.jpg" alt="Husband and Wife walking in park" border="0" align="left" /> <a title="Being a Caregiver for Someone You Love" href="http://www.easterseals.com/explore-resources/for-caregivers/being-a-caregiver-for-someone-you-love.html">Being a Caregiver for Someone You Love</a><br />
+      What does it mean to be a caregiver? Caregiving is a different experience for everyone depending on how much care your loved one requires, which can range from a friendly visit once in a while to 24 hour care.</p>
+    <p><img src="http://www.easterseals.com/shared-components/image-library/544621.jpg" alt="Fran Miner and her family sitting outside" border="0" align="left" /> <a title="Staying Involved When You Don't Live nearby" href="http://www.easterseals.com/explore-resources/for-caregivers/staying-involved.html">Staying Involved When You Don't Live nearby</a><br />
+      Long-distance, or remote, caregiving has quickly become a reality. Long distance caregivers are usually family members who provide support, care or care coordination from at least an hour away. Although the distance may change, the responsibility and dedication remains the same, and Easter Seals has many resources available to help you out. </p>
+    <p><a title="Learn more about planning for the future" href="http://www.easterseals.com/explore-resources/for-caregivers/planning-for-the-future.html">Planning for the Future</a><br />
+      <img src="http://www.easterseals.com/shared-components/image-library/544116.jpg" alt="Woman smiling" border="0" align="left" />Whether you&rsquo;re 39 or 99, it&rsquo;s never too early to start planning. For most of us, the majority of our older years are spent healthy and active. However, many people experience an eventual need for assistance due to acquired disability, aging related conditions and/or other illnesses. With thoughtful planning, and services and supports, most of us can continue to live in, contribute to and stay connected to our communities.</p>
+    <p><img src="http://www.easterseals.com/shared-components/image-library/544112.jpg" alt="Adult Day Services program participant receiving a backrub" border="0" align="left" /> <a title="Caregiving in America: The Big Picture" href="http://www.easterseals.com/explore-resources/for-caregivers/caregiving-in-america.html">Caregiving in America: The Big Picture</a><br />
+    It is important to be aware of our changing demographics. Statistics today will quickly become personal realities -- caregiving will become part of our family lives, our friendships and neighborhoods.</p>
+    <p><img src="http://www.easterseals.com/shared-components/image-library/1409860.jpg" alt="People hugging" border="0" align="left" /><a title="Easter Seals' Caregivers' Spokesperson Network" href="http://www.easterseals.com/explore-resources/for-caregivers/caregivers-spokesperson.html">Easter Seals' Caregivers' Spokesperson Network</a><br />
+      The members of Easter Seals&rsquo; Caregivers Spokespersons Network are experts who work in markets across the country providing help, hope and answers to older adults and those who care for them.</p>
+    <p><img src="http://www.easterseals.com/shared-components/image-library/850028.jpg" alt="Plane People Flag" border="0" align="left" /><a href="http://www.easterseals.com/explore-resources/for-caregivers/military-veteran-caregivers.html">Military &amp; Veteran Caregivers</a><br />
+      As was highlighted in the study, it is projected that there are 5.5 million family members and friends caring for our nation's service members and veterans in need of support. Military Caregivers often have fewer supports and experience higher levels of burden, stress, and physical strain. Easter Seals offers help, hope and answers, whether you're the son of a Korean War veteran now experiencing memory loss or the spouse of an Operation Enduring Freedom (OEF)/Operation Iraqi Freedom (OIF) veteran experiencing Post-Traumatic Stress (PTS).</p>
+    <h3>Other Helpful Resources</h3>
+    <p><a title="Talking with Your Doctor" href="http://www.easterseals.com/explore-resources/living-with-disability/talking-with-your-doctor.html">Talking with Your Doctor</a><br />
+      Tips to maintain a good relationship with your loved one's doctor.</p>
+    <p><a title="S.A.F.E.T.Y First" href="http://www.easterseals.com/explore-resources/making-life-accessible/resources.html">S.A.F.E.T.Y First</a><br />
+      Steps to assure you are prepared for an emergency evacuation.</p>
+    <p><a title="Easy Access Housing" href="http://www.easterseals.com/explore-resources/making-life-accessible/easy-access-housing.html">Easy Access Housing</a> <br />
+      Resources for making your home accessible.</p>
+    <p><a href="http://seniortransportation.easterseals.com/">Transportation Solutions for Caregivers</a><br />
+      Transporting an older loved one who requires physical assistance or has dementia can present a challenge, but it doesn't have to be a struggle. There is almost always a solution and a way to make every car trip easier.</p>
+    <p><a title="Learn more about the Caregiving in Rural America report" href="http://www.easterseals.com/explore-resources/for-caregivers/rural_caregiving.html">Caregiving in Rural America</a><br />
+      Download this report, produced by Easter Seals and the National Alliance for Caregiving. <em>Caregiving in Rural America</em> brings to light and supports the demand to address the ever-increasing numbers and unmet needs of rural caregivers.</p>
+    <p><a title="Download Loving Conversations" href="http://www.easterseals.com/explore-resources/for-caregivers/loving-conversations-thank-you.html">&quot;Loving Conversations&quot; for Your Aging Parents</a><br />
+      Download or order Easter Seals' free booklet to help adult children and their parents make the best decisions on health care, living arrangements and more.</p>
+    <p><strong><a title="Easter Seals Contact Us Page" href="http://www.easterseals.com/who-we-are/contact-us/">Contact Easter Seals</a> for more information about Easter Seals services for caregivers in your area.</strong></p>
+    <div>Text<strong> FAMILY CARES to 80077 </strong>to join Easter Seals mobile community and get more caregiving resources and information.</div>
+    <div></div>
+    <div><em>SMS Subscription service. Up to 4msg/mo. Msg&amp;Data Rates May Apply. <strong>Text STOP to 80077 to STOP</strong>. Full terms: <a href="http://www.mgive.com/E">mGive.com/E</a> Privacy Policy: <a href="http://www.mgive.org/P">mGive.org/P</a></em></div>
     <div> </div>
     <p>&nbsp;</p>
     <h3>&nbsp;</h3>
